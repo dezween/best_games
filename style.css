@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+
+.menu {
+    background-color: rgb(68, 80, 90);
+    height: 50px;
+    box-shadow: 0 0 40px black;
+}
+
+.menu-item {
+    line-height: 50px;
+    color: rgb(223, 239, 244);
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 30px;
+}
+
+.menu-item:hover {
+    color: rgb(40, 152, 250);
+}
+
+.card {
+    width: 24%;
+    display: inline-block;
+    background-color: rgb(223, 239, 244);
+    text-align: center;
+    padding: 8px 0;
+    margin: 10px;
+}
+
+img {
+    width: 95%;
+    height: 250px;
+}
+
+ul {
+    margin-left: 30px;
+    text-align: left;
+}
+
+li {
+    list-style: '✔️';
+    color: rgb(40, 152, 250);
+}
+
+h2 {
+    color: rgb(68, 80, 90);
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.card-button {
+    color: rgb(68, 80, 90);
+    background-color: rgb(40, 152, 250);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(40, 152, 250);
+    text-decoration: none;
+}
+
+.card-button:hover {
+    border-radius: 0px;
+    border: 1px solid rgb(68, 80, 90);
+}
+
+table {
+    width: 60%; 
+    margin: 50px auto;
+}
+
+caption {
+    color: rgb(68, 80, 90);
+    text-shadow: 10px 5px 5px grey;
+    font-size: 60px;
+    margin: 40px 0;
+}
+
+th {
+    color: white;
+    font-size: 40px;
+    padding: 50px;
+    border-radius: 50px 50px 0 0;
+}
+
+td {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.odd {
+    background-color: rgb(193, 178, 178);
+}
+
+.silver {
+ background: rgb(118, 255, 118);
+}
+.gold {
+    background: rgb(246, 246, 110);
+}
+.platinum {
+    background: rgb(160, 160, 245);
+}
+.diamond{
+    background: rgb(250, 182, 56);
+}
+.subscribe {
+    background: rgb(40, 152, 250);
+    padding: 10px 60px;
+    border-radius: 10px;
+    color: rgb(208, 203, 203);
+    text-decoration: none;
+}
+
+.subscribe:hover {
+    background: rgb(208, 203, 203);
+    color: rgb(40, 152, 250);
+}
